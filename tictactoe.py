@@ -1,4 +1,6 @@
 #%%
+# This is for 2 human players
+
 class TicTacToe:
     def __init__(self, names):
         self.board = [[' ',' ',' '] for i in range(3)]
@@ -49,7 +51,7 @@ class TicTacToe:
         return True
 
     def has_winner(self):
-        winning_coms = [
+        win_combi = [
             [self.board[0][0], self.board[1][1], self.board[2][2]],
             [self.board[2][0], self.board[1][1], self.board[0][2]],
             
@@ -61,7 +63,7 @@ class TicTacToe:
             [self.board[1][0], self.board[1][1], self.board[1][2]],
             [self.board[2][0], self.board[2][1], self.board[2][2]],
         ]
-        if [self.player, self.player, self.player] in winning_coms:
+        if [self.player, self.player, self.player] in win_combi:
             return 'WIN'
         if self.is_blank():
             return ''

@@ -1,1 +1,1 @@
-Fun Tic Tac TO Game!
+Let's Play a Tic Tac Toe Game!

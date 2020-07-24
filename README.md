@@ -1,1 +1,1 @@
-Let's Play a Tic Tac Toe Game!
+Toy Project: Tic Tac Toe Game!

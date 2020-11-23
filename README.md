@@ -1,5 +1,5 @@
 Toy Project: Tic Tac Toe Game!
 
-2 player
+(1) For 2 players
 or
-random AI player
+(2) Me vs. AI player

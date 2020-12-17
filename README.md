@@ -1,4 +1,4 @@
-Toy Project: Tic Tac Toe Game!
+Toy Project 1: Tic Tac Toe Game
 
 (1) For 2 players
 or
